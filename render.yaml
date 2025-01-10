@@ -1,0 +1,11 @@
+version: 1
+services:
+  web:
+    type: node
+    name: vscode-web-app
+    env: 
+      NODE_ENV: production
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    region: oregon
