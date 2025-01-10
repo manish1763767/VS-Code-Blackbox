@@ -6,6 +6,6 @@ services:
     env: 
       NODE_ENV: production
     buildCommand: npm install && npm run build
-startCommand: node server.js
+    startCommand: node server.js
     plan: free
     region: oregon
